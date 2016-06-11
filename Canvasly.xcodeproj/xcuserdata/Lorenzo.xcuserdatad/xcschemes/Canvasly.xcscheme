@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDFB4BAC1D0C1E3900D34414"
+               BuildableName = "CanvaslyUITests.xctest"
+               BlueprintName = "CanvaslyUITests"
+               ReferencedContainer = "container:Canvasly.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDFB4BBA1D0C1F1700D34414"
+               BuildableName = "CanvaslyTests.xctest"
+               BlueprintName = "CanvaslyTests"
+               ReferencedContainer = "container:Canvasly.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

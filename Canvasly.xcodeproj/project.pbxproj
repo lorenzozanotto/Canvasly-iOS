@@ -13,7 +13,30 @@
 		EDBD7F5D1CAB38390082F88E /* Canvasly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDBD7F5B1CAB38390082F88E /* Canvasly.xcdatamodeld */; };
 		EDBD7F5F1CAB38390082F88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBD7F5E1CAB38390082F88E /* Assets.xcassets */; };
 		EDBD7F621CAB38390082F88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBD7F601CAB38390082F88E /* LaunchScreen.storyboard */; };
+		EDBD7F6D1CAB38EA0082F88E /* DraftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD7F6C1CAB38EA0082F88E /* DraftCell.swift */; };
+		EDBD7F6F1CAB3BD70082F88E /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD7F6E1CAB3BD70082F88E /* Draft.swift */; };
+		EDBD7F711CAB3E100082F88E /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD7F701CAB3E100082F88E /* EditorViewController.swift */; };
+		EDFB4BB01D0C1E3900D34414 /* CanvaslyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB4BAF1D0C1E3900D34414 /* CanvaslyUITests.swift */; };
+		EDFB4BBE1D0C1F1700D34414 /* CanvaslyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB4BBD1D0C1F1700D34414 /* CanvaslyTests.swift */; };
+		EDFB4BC91D0C5AFE00D34414 /* MarkdownTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFB4BC81D0C5AFE00D34414 /* MarkdownTextView.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFB4BB21D0C1E3900D34414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBD7F491CAB38390082F88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBD7F501CAB38390082F88E;
+			remoteInfo = Canvasly;
+		};
+		EDFB4BC01D0C1F1700D34414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBD7F491CAB38390082F88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBD7F501CAB38390082F88E;
+			remoteInfo = Canvasly;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EDBD7F511CAB38390082F88E /* Canvasly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvasly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +47,35 @@
 		EDBD7F5E1CAB38390082F88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBD7F611CAB38390082F88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDBD7F631CAB38390082F88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBD7F6C1CAB38EA0082F88E /* DraftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftCell.swift; sourceTree = "<group>"; };
+		EDBD7F6E1CAB3BD70082F88E /* Draft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
+		EDBD7F701CAB3E100082F88E /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		EDFB4BAD1D0C1E3900D34414 /* CanvaslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvaslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFB4BAF1D0C1E3900D34414 /* CanvaslyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaslyUITests.swift; sourceTree = "<group>"; };
+		EDFB4BB11D0C1E3900D34414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFB4BBB1D0C1F1700D34414 /* CanvaslyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvaslyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFB4BBD1D0C1F1700D34414 /* CanvaslyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaslyTests.swift; sourceTree = "<group>"; };
+		EDFB4BBF1D0C1F1700D34414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFB4BC81D0C5AFE00D34414 /* MarkdownTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarkdownTextView.framework; path = Carthage/Build/iOS/MarkdownTextView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EDBD7F4E1CAB38390082F88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB4BC91D0C5AFE00D34414 /* MarkdownTextView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB4BAA1D0C1E3900D34414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB4BB81D0C1F1700D34414 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +88,10 @@
 		EDBD7F481CAB38390082F88E = {
 			isa = PBXGroup;
 			children = (
+				EDFB4BC81D0C5AFE00D34414 /* MarkdownTextView.framework */,
 				EDBD7F531CAB38390082F88E /* Canvasly */,
+				EDFB4BAE1D0C1E3900D34414 /* CanvaslyUITests */,
+				EDFB4BBC1D0C1F1700D34414 /* CanvaslyTests */,
 				EDBD7F521CAB38390082F88E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				EDBD7F511CAB38390082F88E /* Canvasly.app */,
+				EDFB4BAD1D0C1E3900D34414 /* CanvaslyUITests.xctest */,
+				EDFB4BBB1D0C1F1700D34414 /* CanvaslyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +109,11 @@
 		EDBD7F531CAB38390082F88E /* Canvasly */ = {
 			isa = PBXGroup;
 			children = (
+				EDFB4BC51D0C4A0800D34414 /* Services */,
+				EDBD7F6B1CAB384E0082F88E /* Model */,
+				EDBD7F6A1CAB38480082F88E /* View */,
+				EDBD7F691CAB38420082F88E /* Controller */,
 				EDBD7F541CAB38390082F88E /* AppDelegate.swift */,
-				EDBD7F561CAB38390082F88E /* ViewController.swift */,
 				EDBD7F581CAB38390082F88E /* Main.storyboard */,
 				EDBD7F5E1CAB38390082F88E /* Assets.xcassets */,
 				EDBD7F601CAB38390082F88E /* LaunchScreen.storyboard */,
@@ -65,6 +121,56 @@
 				EDBD7F5B1CAB38390082F88E /* Canvasly.xcdatamodeld */,
 			);
 			path = Canvasly;
+			sourceTree = "<group>";
+		};
+		EDBD7F691CAB38420082F88E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD7F561CAB38390082F88E /* ViewController.swift */,
+				EDBD7F701CAB3E100082F88E /* EditorViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EDBD7F6A1CAB38480082F88E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD7F6C1CAB38EA0082F88E /* DraftCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EDBD7F6B1CAB384E0082F88E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD7F6E1CAB3BD70082F88E /* Draft.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EDFB4BAE1D0C1E3900D34414 /* CanvaslyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB4BAF1D0C1E3900D34414 /* CanvaslyUITests.swift */,
+				EDFB4BB11D0C1E3900D34414 /* Info.plist */,
+			);
+			path = CanvaslyUITests;
+			sourceTree = "<group>";
+		};
+		EDFB4BBC1D0C1F1700D34414 /* CanvaslyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB4BBD1D0C1F1700D34414 /* CanvaslyTests.swift */,
+				EDFB4BBF1D0C1F1700D34414 /* Info.plist */,
+			);
+			path = CanvaslyTests;
+			sourceTree = "<group>";
+		};
+		EDFB4BC51D0C4A0800D34414 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +183,7 @@
 				EDBD7F4D1CAB38390082F88E /* Sources */,
 				EDBD7F4E1CAB38390082F88E /* Frameworks */,
 				EDBD7F4F1CAB38390082F88E /* Resources */,
+				EDFB4BCA1D0C5B0E00D34414 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -87,19 +194,65 @@
 			productReference = EDBD7F511CAB38390082F88E /* Canvasly.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EDFB4BAC1D0C1E3900D34414 /* CanvaslyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFB4BB41D0C1E3900D34414 /* Build configuration list for PBXNativeTarget "CanvaslyUITests" */;
+			buildPhases = (
+				EDFB4BA91D0C1E3900D34414 /* Sources */,
+				EDFB4BAA1D0C1E3900D34414 /* Frameworks */,
+				EDFB4BAB1D0C1E3900D34414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFB4BB31D0C1E3900D34414 /* PBXTargetDependency */,
+			);
+			name = CanvaslyUITests;
+			productName = CanvaslyUITests;
+			productReference = EDFB4BAD1D0C1E3900D34414 /* CanvaslyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDFB4BBA1D0C1F1700D34414 /* CanvaslyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFB4BC21D0C1F1700D34414 /* Build configuration list for PBXNativeTarget "CanvaslyTests" */;
+			buildPhases = (
+				EDFB4BB71D0C1F1700D34414 /* Sources */,
+				EDFB4BB81D0C1F1700D34414 /* Frameworks */,
+				EDFB4BB91D0C1F1700D34414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFB4BC11D0C1F1700D34414 /* PBXTargetDependency */,
+			);
+			name = CanvaslyTests;
+			productName = CanvaslyTests;
+			productReference = EDFB4BBB1D0C1F1700D34414 /* CanvaslyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EDBD7F491CAB38390082F88E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Lorenzo Zanotto";
 				TargetAttributes = {
 					EDBD7F501CAB38390082F88E = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = YZ8L8XZJ5A;
+					};
+					EDFB4BAC1D0C1E3900D34414 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YZ8L8XZJ5A;
+						TestTargetID = EDBD7F501CAB38390082F88E;
+					};
+					EDFB4BBA1D0C1F1700D34414 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YZ8L8XZJ5A;
+						TestTargetID = EDBD7F501CAB38390082F88E;
 					};
 				};
 			};
@@ -117,6 +270,8 @@
 			projectRoot = "";
 			targets = (
 				EDBD7F501CAB38390082F88E /* Canvasly */,
+				EDFB4BAC1D0C1E3900D34414 /* CanvaslyUITests */,
+				EDFB4BBA1D0C1F1700D34414 /* CanvaslyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -132,20 +287,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDFB4BAB1D0C1E3900D34414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB4BB91D0C1F1700D34414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EDFB4BCA1D0C5B0E00D34414 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MarkdownTextView.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDBD7F4D1CAB38390082F88E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBD7F6F1CAB3BD70082F88E /* Draft.swift in Sources */,
+				EDBD7F711CAB3E100082F88E /* EditorViewController.swift in Sources */,
 				EDBD7F5D1CAB38390082F88E /* Canvasly.xcdatamodeld in Sources */,
 				EDBD7F571CAB38390082F88E /* ViewController.swift in Sources */,
 				EDBD7F551CAB38390082F88E /* AppDelegate.swift in Sources */,
+				EDBD7F6D1CAB38EA0082F88E /* DraftCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB4BA91D0C1E3900D34414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB4BB01D0C1E3900D34414 /* CanvaslyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB4BB71D0C1F1700D34414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB4BBE1D0C1F1700D34414 /* CanvaslyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFB4BB31D0C1E3900D34414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBD7F501CAB38390082F88E /* Canvasly */;
+			targetProxy = EDFB4BB21D0C1E3900D34414 /* PBXContainerItemProxy */;
+		};
+		EDFB4BC11D0C1F1700D34414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBD7F501CAB38390082F88E /* Canvasly */;
+			targetProxy = EDFB4BC01D0C1F1700D34414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EDBD7F581CAB38390082F88E /* Main.storyboard */ = {
@@ -252,7 +470,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Canvasly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.Canvasly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,10 +486,69 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Canvasly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.Canvasly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDFB4BB51D0C1E3900D34414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = CanvaslyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.CanvaslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Canvasly;
+			};
+			name = Debug;
+		};
+		EDFB4BB61D0C1E3900D34414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = CanvaslyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.CanvaslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Canvasly;
+			};
+			name = Release;
+		};
+		EDFB4BC31D0C1F1700D34414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = CanvaslyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.CanvaslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvasly.app/Canvasly";
+			};
+			name = Debug;
+		};
+		EDFB4BC41D0C1F1700D34414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = CanvaslyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzozanotto.CanvaslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvasly.app/Canvasly";
 			};
 			name = Release;
 		};
@@ -287,6 +569,23 @@
 			buildConfigurations = (
 				EDBD7F671CAB38390082F88E /* Debug */,
 				EDBD7F681CAB38390082F88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFB4BB41D0C1E3900D34414 /* Build configuration list for PBXNativeTarget "CanvaslyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB4BB51D0C1E3900D34414 /* Debug */,
+				EDFB4BB61D0C1E3900D34414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDFB4BC21D0C1F1700D34414 /* Build configuration list for PBXNativeTarget "CanvaslyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB4BC31D0C1F1700D34414 /* Debug */,
+				EDFB4BC41D0C1F1700D34414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
